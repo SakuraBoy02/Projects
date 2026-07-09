@@ -6,6 +6,8 @@ font-family: "Aboreto", system-ui;
    /*font-family: "Hurricane", cursive;*/
   background-color: #fff;
   color: #000;  
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -16,20 +18,53 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  
+  margin:0 20px;
+  
+}
+
+.contacts { 
+  justify-self: end;
 }
 
 .logo {
-
+  display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-.header_nav {
-
+.logo img{
+  width: 200px;
+    display: block;
 }
 
+.logo:hover{
+  transform: scale(1.01);
+}
+
+.header_nav a{
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.header_nav a:hover{
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
+.header_nav a.active{
+  /* text-decoration: underline */
+}
 .header_list {
-
+  display: flex;
+  gap: 30px;
 }
