@@ -19,7 +19,9 @@ sliderItems.forEach(function (slide, index){
         // }else{
         //     nextSlideIndex = index + 1;
         // }
-
+        // тоже самое что if  A
+        //                    |
+        //                    |
         //Тернарный оператор
         let nextSlideIndex = index + 1 === sliderItems.length ? 0 : index + 1;
 
