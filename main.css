@@ -2,6 +2,10 @@
 
 body {
 font-family: "Aboreto", system-ui;
+background-image: url("./Photo/138949475_354f086c-93a6-4099-8327-9c189899d13e\ 1.png");
+/* border-radius: 30px; */
+background-repeat:no-repeat;
+background-size: cover;
  /* font-family: "Advent Pro", sans-serif;*/ 
    /*font-family: "Hurricane", cursive;*/
   background-color: #fdeae3;
@@ -109,7 +113,7 @@ ul {
 
 .welcome {
 height: 100vh;
-background-image: url("./Photo/138949475_354f086c-93a6-4099-8327-9c189899d13e\ 1.png");
+/* background-image: url("./Photo/138949475_354f086c-93a6-4099-8327-9c189899d13e\ 1.png"); */
 border-radius: 30px;
 background-repeat:no-repeat;
 background-size: cover;
