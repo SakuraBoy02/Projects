@@ -41,8 +41,8 @@ var swiper = new Swiper('.mySwiper', {
         centeredSlides: true,
 
         slidesPerView: 'auto',
-        loop: true,
-        loopAdditionalSlides: 1,
+        // loop: true,
+        // loopAdditionalSlides: 1,
         
         
         coverflowEffect: {
@@ -55,8 +55,8 @@ var swiper = new Swiper('.mySwiper', {
         pagination: {
           el: '.swiper-pagination',
         },
-        autoplay:{
-            delay:2000,
-            disableOnInteraction:false,
-        }
+        // autoplay:{
+        //     delay:2000,
+        //     disableOnInteraction:false,
+        // }
       });

@@ -190,8 +190,8 @@ padding-left: 170px
 
 .gallery {
 display: grid;
-grid-template-columns: 280px 400px 280px;
-grid-template-rows: 270px 270px;
+grid-template-columns: 380px 500px 380px;
+grid-template-rows: 370px 370px;
 
 gap: 20px;
 
